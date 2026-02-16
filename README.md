@@ -62,7 +62,7 @@ Explanation: CloudTrail log entries are JSON; eventName contains API like Delete
 
 ## 6) Create a CloudWatch Alarm on that metric
 - **CloudWatch → Alarms → Create alarm**.  
-- **Select metric** → choose `Logs` → find your  → `DeleteSecurityGroupCount`.  
+- **Select metric** → choose `Logs` → find your  → `DeleteSecurityGroupCount` or `The Reasource Arn`.  
 - Define condition:
    - Statistic: `Sum`
    - Period: `1 minute` (or 5 minutes)
